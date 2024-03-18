@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +47,24 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.left-box {
+  display: flex;
+  align-items: center;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+}
+
+.notifications {
+  margin-right: 10px;
 }
